@@ -1,4 +1,0 @@
-1,Soroka,159357,administrator
-2,Petrov,586947,administrator
-3,Chayka, 456789,keeper
-4,Vetrov,123753,keeper
