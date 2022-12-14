@@ -11,7 +11,11 @@ public class MethodSearchCategory {
     private List<String> categorySearch() {
         WorkWithFile workWithFile = new WorkWithFile();
         List<String> readFile = workWithFile.fileReader();
+<<<<<<< HEAD
         System.out.println("Enter the title of the wine with a capital letter: ");
+=======
+        System.out.println("Введите имя категории, которую хотите найти с большой буквы: ");
+>>>>>>> ec647149b4aabad6b1489cffe68461f44f0a0152
         String search = scanner.getWord();
         int y = 0;
         for (String str : readFile) {
@@ -20,6 +24,7 @@ public class MethodSearchCategory {
             } else {
                 y++;
                 if (y == readFile.size()) {
+<<<<<<< HEAD
                     System.out.println("Not found.");
                 }
             }
@@ -39,6 +44,9 @@ public class MethodSearchCategory {
                 y++;
                 if (y == readFile.size()) {
                     System.out.println("Not found.");
+=======
+                    System.out.println("Категория не найдена.");
+>>>>>>> ec647149b4aabad6b1489cffe68461f44f0a0152
                 }
             }
         }
@@ -46,6 +54,7 @@ public class MethodSearchCategory {
     }
 
     public void getCategorySearch() {
+<<<<<<< HEAD
 
         categorySearch();
     }
@@ -54,4 +63,8 @@ public class MethodSearchCategory {
         colorWineSearch();
     }
 
+=======
+        categorySearch();
+    }
+>>>>>>> ec647149b4aabad6b1489cffe68461f44f0a0152
 }

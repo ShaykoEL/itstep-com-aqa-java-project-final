@@ -22,6 +22,7 @@ public class MenuForUser {
                     methodWatch.getWatchedCategoriesList();
                     break;
                 case 2:
+<<<<<<< HEAD
                     methodSearchCategory.getCategorySearch();
                     break;
                 case 3:
@@ -31,6 +32,13 @@ public class MenuForUser {
                     methodWatch.getWatchedAllList();
                     break;
 
+=======
+                    methodWatch.getWatchedAllList();
+                    break;
+                case 3:
+                    methodSearchCategory.getSearchCategory();
+                    break;
+>>>>>>> ec647149b4aabad6b1489cffe68461f44f0a0152
                 case 5:
                     System.out.println("End of program");
                     System.exit(0);
@@ -44,13 +52,21 @@ public class MenuForUser {
     public void cycleForMenu() {
         MenuForUser menuForUser = new MenuForUser();
         do {
+<<<<<<< HEAD
             menuForUser.menuOptions();
+=======
+            menuForUser.variousOfDoInMenu();
+>>>>>>> ec647149b4aabad6b1489cffe68461f44f0a0152
         } while (menuForUser.exit);
     }
 
     public void getVariousOfDoInMenu() {
+<<<<<<< HEAD
 
         menuOptions();
+=======
+        variousOfDoInMenu();
+>>>>>>> ec647149b4aabad6b1489cffe68461f44f0a0152
     }
 
 

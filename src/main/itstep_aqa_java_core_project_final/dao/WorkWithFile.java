@@ -26,7 +26,11 @@ public class WorkWithFile {
     public List fileWriter() {
         BufferedWriter bufferedWriter = null;
         try {
+<<<<<<< HEAD
             bufferedWriter = new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "\\src\\main\\resources\\file_wine.txt"));
+=======
+            bufferedWriter = new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "\\Final Task\\resources\\file_book_data.txt"));
+>>>>>>> ec647149b4aabad6b1489cffe68461f44f0a0152
             for (String str1 : readBase
             ) {
                 bufferedWriter.write(str1);
